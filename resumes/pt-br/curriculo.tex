@@ -48,13 +48,13 @@
 
 % --- CONFIGURAÇÃO: METADADOS / LINKS ---
 \hypersetup{
-    pdftitle={CV Seu Nome},
-    pdfauthor={Seu Nome},
+    pdftitle={CV Raphael Augusto},
+    pdfauthor={Raphael Augusto},
     colorlinks=true,
     linkcolor=black,
     urlcolor=black,
     citecolor=black,
-    bookmarksdepth=1 
+    bookmarksdepth=1
 }
 
 % Desabilita numeração das sections
@@ -90,81 +90,60 @@
 \begin{document}
 
 % --- CABEÇALHO ---
-% Substitua com suas informações pessoais
 \begin{center}
-    {\LARGE \textbf{Raphael Augusto}} 
+    {\LARGE \textbf{Raphael Augusto}}
     \\ [0.1cm]
     Brasília, DF
     {\textbullet}
-    Email: \href{mailto:raphael.augusto570@gmail.com}{raphael.augusto570@gmail.com} 
+    \href{mailto:raphael.augusto570@gmail.com}{raphael.augusto570@gmail.com}
     {\textbullet}
-    \href{https://www.linkedin.com/in/raphael-augusto-melo}{linkedin.com/in/raphael-augusto-melo} 
+    \href{https://www.linkedin.com/in/raphael-augusto-melo}{linkedin.com/in/raphael-augusto-melo}
     {\textbullet}
-    \href{https://github.com/usuario}{github.com/usuario}
+    \href{https://github.com/raphael-augusto-melo}{github.com/raphael-augusto-melo}
 \end{center}
 
 % --- SEÇÕES ---
 
-\section{Atividades de Liderança} 
-    % Inclua trabalho voluntário, ligas acadêmicas ou cargos de liderança
-    \subsection*{\texorpdfstring{
-            \textbf{Nome da Empresa/Organização} \hfill Localização (ex: Remoto ou Estado, País)
-        }{
-            Nome da Empresa (Liderança) -- Localização
-        }}
-    \textit{Seu Cargo/Posição \hfill Data de Início - Data de Término (ex: Jan 2024 - Atual)}
-        \begin{itemize}
-            \item Desenvolveu sistema de monitoramento de tráfego humano em ambientes industriais utilizando YOLO e Python, implementando detecção em tempo real de pessoas em zonas de risco configuráveis por polígonos --- validado em vídeos de câmeras de segurança de ferrovias e de ambientes industriais em diferentes condições de iluminação.
-            \item Desenvolveu pipeline completo de dados para gestão interna de colaboradores na arquitetura Medallion (Bronze, Silver e Gold) no Azure Databricks com PySpark, centralizando dados de funcionários para otimizar alocação em projetos e controle de disponibilidade por período de férias.
-            \item Desenvolveu assistente de IA via WhatsApp para consultores de campo da Unilever Food Solutions (UFS), substituindo formulários manuais por conversa guiada com: identificação de operadores por CNPJ, análise de cardápios (foto, PDF ou texto) com matching vetorial de produtos Unilever, enriquecimento de dados via SerpAPI, planejamento de visita com histórico do cliente, registro estruturado de desfechos e agendamento da próxima visita.
-            \item Integrou Azure OpenAI (Responses API), Azure Whisper (transcrição de áudio), Azure Vision OCR (extração de cardápios e documentos) e Azure Data Factory em pipelines de dados, compondo um ecossistema Azure end-to-end de ingestão e análise.
-        \end{itemize}
+\section{Experiência}
+
+\cventry{IvoryIT}{Brasília, DF (Remoto)}{Software Developer Analyst | Dados \& IA}{Jan 2026 - Atual}
+    \begin{itemize}
+        \item Desenvolveu sistema de monitoramento de tráfego humano em ambientes industriais utilizando YOLO e Python, implementando detecção em tempo real de pessoas em zonas de risco configuráveis por polígonos --- validado em câmeras de segurança de ferrovias e ambientes industriais em diferentes condições de iluminação.
+        \item Desenvolveu pipeline completo de dados para gestão interna de colaboradores na arquitetura Medallion (Bronze, Silver e Gold) no Azure Databricks com PySpark, centralizando dados de funcionários para otimizar alocação em projetos e controle de disponibilidade por período de férias.
+        \item Desenvolveu assistente de IA via WhatsApp para consultores de campo da Unilever Food Solutions (UFS), substituindo formulários manuais por conversa guiada com: identificação de operadores por CNPJ, análise de cardápios (foto, PDF ou texto) com matching vetorial de produtos Unilever, enriquecimento de dados via SerpAPI, planejamento de visita com histórico do cliente, registro estruturado de desfechos e agendamento da próxima visita.
+        \item Integrou Azure OpenAI (Responses API), Azure Whisper (transcrição de áudio), Azure Vision OCR (extração de cardápios e documentos) e Azure Data Factory em pipelines de dados, compondo um ecossistema Azure end-to-end de ingestão e análise.
+    \end{itemize}
+
+\cventry{Banco do Brasil S.A.}{Brasília, DF}{Desenvolvedor de Software / Engenharia de Dados (Estágio)}{Mai 2024 - Nov 2025}
+    \begin{itemize}
+        \item Migrou consultas automáticas do SAS Enterprise para SQL, otimizando joins e criando índices, reduzindo em aproximadamente 40\% o tempo de execução.
+        \item Automatizou o processamento de mais de 20.000 registros mensais com web scraping (Selenium) e consumo de APIs REST, reduzindo em cerca de 90\% o esforço manual de análise.
+        \item Desenvolveu APIs REST seguras com Django e FastAPI, integrando sistemas internos e parceiros externos.
+        \item Construiu pipelines de extração de dados com OCR (Tesseract), apoiando processos de digitalização e análise de documentos.
+        \item Implementou testes automatizados (Pytest) e pipelines de CI/CD (GitLab) em todos os códigos produzidos, contribuindo para maior estabilidade nas entregas.
+        \item Criou dashboards no Power BI com controle de acesso via RLS, utilizados por diferentes equipes para apoio à tomada de decisão e compliance.
+    \end{itemize}
+
+\cventry{Travel Buddies}{Remoto}{Desenvolvedor Backend (Freelance)}{Mai 2025 - Jun 2025}
+    \begin{itemize}
+        \item Desenvolveu middleware serverless utilizando Cloudflare Workers e TypeScript, garantindo escalabilidade e alta disponibilidade.
+        \item Integrou APIs de fornecedores com Shopify via Webhooks, automatizando 100\% das vendas com provisionamento de eSIM via QRCode e envio de e-mails automáticos após a compra.
+        \item Acompanhou deploys e ajustes pós-entrega via CI/CD, garantindo rápida evolução do sistema.
+    \end{itemize}
 
 % ------
 
-\section{Experiência}
-    % Liste as suas experiência de trabalho ou acadêmicas, mais recente primeiro
-    \subsection*{\texorpdfstring{
-            \textbf{Nome da Empresa/Organização} \hfill Localização (ex: Remoto ou Estado, País)
-        }{
-            Nome da Empresa -- Localização
-        }}
-    \textit{Cargo (ex: Engenheiro de Software, Analista de Dados) \hfill Data de Início - Data de Término}
-        \begin{itemize} 
-            % Foque em conquistas, não apenas na parte técnica - use o método STAR (Situação, Tarefa, Ação, Resultado)
-            \item Alcancei [resultado específico] através de [ação tomada], resultando em [impacto quantificado].
-            \item Desenvolvi/Construí/Criei [o que você fez] usando [tecnologias/métodos], resultando em [benefício].
-            \item Colaborei com [tamanho/tipo da equipe] para [alcançar o quê], melhorando [métrica] em [porcentagem/quantidade].
-        \end{itemize}
+\section{Projetos}
 
-    \subsection*{\texorpdfstring{
-        	\textbf{Nome da Empresa/Organização} \hfill Localização (ex: Remoto ou Estado, País)
-        }{
-            Nome da Empresa -- Localização
-        }}
-    \textit{Cargo (ex: Desenvolvedor Júnior, Assistente de Pesquisa) \hfill Data de Início - Data de Término}
-        \begin{itemize}
-            \item Desenvolveu middleware serverless utilizando Cloudflare Workers e TypeScript, garantindo escalabilidade e alta disponibilidade.
-            \item Integrou APIs de fornecedores com Shopify via Webhooks, automatizando 100\% das vendas com provisionamento de eSIM via QRCode e envio de e-mails automáticos após a compra.
-            \item Acompanhou deploys e ajustes pós-entrega via CI/CD, garantindo rápida evolução do sistema.
-        \end{itemize}
-        
-    \subsection*{\texorpdfstring{
-        	\textbf{Universidade/Instituição de Pesquisa} \hfill Localização (ex: Remoto ou Estado, País)
-        }{
-            Universidade/Instituição de Pesquisa -- Localização
-        }}
-    \textit{Função (ex: Pesquisador de Graduação, Monitor) \hfill Data de Início - Data de Término}
-        \begin{itemize}
-            \item Desenvolveu plataforma modular de orquestração de workflows com integração de IA generativa (Google Gemini) para criação dinâmica de fluxos a partir de linguagem natural.
-            \item Atuou como líder técnico do projeto, definindo stack e arquitetura; projeto premiado como destaque de inovação no Centro Universitário de Brasília (CEUB).
-        \end{itemize}
+\cventry{Taskify --- Plataforma de Orquestração de Workflows com IA}{Jun 2025 - Nov 2025}{React, Next.js, TypeScript, Python, Django DRF, Google GenAI, LangGraph}{}
+    \begin{itemize}
+        \item Desenvolveu plataforma modular de orquestração de workflows com integração de IA generativa (Google Gemini) para criação dinâmica de fluxos a partir de linguagem natural.
+        \item Atuou como líder técnico do projeto, definindo stack e arquitetura; projeto premiado como destaque de inovação no Centro Universitário de Brasília (CEUB).
+    \end{itemize}
 
 % ------
 
 \section{Habilidades}
-    % Mantenha esta seção concisa e use o máximo de palavras chaves
-    % que fazem sentido para a vaga que você deseja.
     \begin{itemize}
         \item \textbf{Técnicas:} Python, JavaScript, TypeScript, SQL, PySpark, FastAPI, Django REST, Node.js, NestJS, PostgreSQL, Azure Databricks (Delta Lake), Azure OpenAI, Azure Data Factory, Docker, CI/CD, LLMs, RAG, Computer Vision (YOLO), Power BI, LangGraph, LangChain
         \item \textbf{Idiomas:} Português (Nativo), Inglês (Avançado)
@@ -172,19 +151,8 @@
 
 % ------
 
-% !!!!!!!!!!!!!!!!!!!!!!
-% Mude esta section para o começo, depois do header e antes
-% das suas experiências se você está procurando sua primeira
-% vaga ou algum estágio. Do contrário, deixe como está.
-% !!!!!!!!!!!!!!!!!!!!!!
-
 \section{Educação}
-    % Formação mais recente primeiro
-    \subsection*{\texorpdfstring{
-            \textbf{Nome da Sua Universidade} \hfill Localização (ex: Remoto ou Estado, País)
-        }{
-            Nome da Sua Universidade (Educação) -- Localização
-        }}
-    \textit{Título do Seu Curso (ex: Bacharelado em Ciência da Computação) \hfill Data de Início - Data de Término (ex: Jan 2020 - Dez 2024)}
+
+\cventry{Centro Universitário de Brasília (CEUB)}{Brasília, DF}{Bacharelado em Ciência da Computação}{Jan 2022 - Dez 2025}
 
 \end{document}

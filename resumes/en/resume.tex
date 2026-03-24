@@ -48,13 +48,13 @@
 
 % --- SETTINGS: METADATA / LINKS ---
 \hypersetup{
-    pdftitle={CV Your Name},
-    pdfauthor={Your Name},
+    pdftitle={CV Raphael Augusto},
+    pdfauthor={Raphael Augusto},
     colorlinks=true,
     linkcolor=black,
     urlcolor=black,
     citecolor=black,
-    bookmarksdepth=1 
+    bookmarksdepth=1
 }
 
 % Disable section numbering for cleaner appearance
@@ -91,99 +91,68 @@
 
 % --- HEADER ---
 \begin{center}
-    {\LARGE \textbf{Your Full Name}} 
+    {\LARGE \textbf{Raphael Augusto}}
     \\ [0.1cm]
-    Your City, Your Country 
+    Brasília, DF --- Brazil
     {\textbullet}
-    Email: \href{mailto:your.email@example.com}{your.email@example.com} 
+    \href{mailto:raphael.augusto570@gmail.com}{raphael.augusto570@gmail.com}
     {\textbullet}
-    \href{https://www.linkedin.com/in/yourprofile}{linkedin.com/in/yourprofile} 
+    \href{https://www.linkedin.com/in/raphael-augusto-melo}{linkedin.com/in/raphael-augusto-melo}
     {\textbullet}
-    \href{https://github.com/yourusername}{github.com/yourusername}
+    \href{https://github.com/raphael-augusto-melo}{github.com/raphael-augusto-melo}
 \end{center}
 
 % --- SECTIONS ---
 
-\section{Leadership Activities} 
-    % Include volunteer work, clubs, organizations, or leadership roles
-    \subsection*{\texorpdfstring{
-            \textbf{Organization Name} \hfill Location (e.g. Remote or State, Country)
-        }{
-            Organization Name (Leadership) -- Location
-        }}
-    \textit{Your Role/Position \hfill Start Date - End Date (e.g. Jan 2024 - Present)}
-        \begin{itemize}
-            % Use action verbs from the README - quantify your impact when possible
-            \item Describe a significant leadership accomplishment with specific metrics.
-            \item Highlight how you managed teams, led initiatives, or drove results.
-            \item Show impact on the organization or community you served.
-        \end{itemize}
-
-% ------
-
 \section{Experience}
-    % List work experience in reverse chronological order (most recent first)
-    \subsection*{\texorpdfstring{
-            \textbf{Company/Organization Name} \hfill Location (e.g. Remote or State, Country)
-        }{
-            Company Name -- Location
-        }}
-    \textit{Job Title (e.g. Software Engineer, Data Analyst) \hfill Start Date - End Date}
-        \begin{itemize} 
-            % Focus on achievements, not just duties - use STAR method (Situation, Task, Action, Result)
-            \item Accomplished [specific result] by [action taken], leading to [quantified impact].
-            \item Developed/Built/Created [what you made] using [technologies/methods], resulting in [benefit].
-            \item Collaborated with [team size/type] to [achieve what], improving [metric] by [percentage/amount].
-        \end{itemize}
 
-    \subsection*{\texorpdfstring{
-        	\textbf{Company/Organization Name} \hfill Location (e.g. Remote or State, Country)
-        }{
-            Another Company/Organization -- Location
-        }}
-    \textit{Job Title (e.g. Junior Developer, Research Assistant) \hfill Start Date -- End Date}
-        \begin{itemize}
-            \item Use active verbs from the action verbs table in README.md
-            \item Quantify your achievements whenever possible (numbers, percentages, timeframes)
-            \item Show progression and increasing responsibility across roles
-        \end{itemize}
-        
-    \subsection*{\texorpdfstring{
-        	\textbf{University/Research Institution} \hfill Location (e.g. Remote or State, Country)
-        }{
-            University/Research Institution -- Location
-        }}
-    \textit{Research/Academic Position (e.g. Undergraduate Researcher, Teaching Assistant) \hfill Start Date - End Date}
-        \begin{itemize}
-            \item Include research, academic work, or projects that demonstrate technical skills
-            \item Highlight any publications, presentations, or significant findings
-        \end{itemize}
-
-% ------
-
-\section{Skills}
-    % Keep this section concise and relevant to your target jobs
+\cventry{IvoryIT}{Brasília, DF (Remote)}{Software Developer Analyst | Data \& AI}{Jan 2026 -- Present}
     \begin{itemize}
-        \item \textbf{Technical:} List your programming languages, frameworks, tools, and methodologies
-        \item \textbf{Language:} Your Native Language (Native), Second Language (Proficiency Level), Third Language (Proficiency Level)
+        \item Developed a human traffic monitoring system for industrial environments using YOLO and Python, implementing real-time detection of people in configurable polygon-based risk zones --- validated on railway security cameras and industrial environments under varying lighting conditions.
+        \item Developed a complete data pipeline for internal employee management in Medallion architecture (Bronze, Silver, and Gold) on Azure Databricks using PySpark, centralizing employee data to optimize project allocation and availability tracking during vacation periods.
+        \item Developed an AI-powered WhatsApp assistant for Unilever Food Solutions (UFS) field consultants, replacing manual forms with guided conversation featuring: operator identification by tax ID (CNPJ), menu analysis (photo, PDF, or text) with vector-based Unilever product matching, client data enrichment via SerpAPI, visit planning with customer history, structured outcome recording, and next visit scheduling.
+        \item Integrated Azure OpenAI (Responses API), Azure Whisper (audio transcription), Azure Vision OCR (menu and document extraction), and Azure Data Factory into data pipelines, composing an end-to-end Azure ecosystem for data ingestion and analysis.
+    \end{itemize}
+
+\cventry{Banco do Brasil S.A.}{Brasília, DF}{Software Developer / Data Engineering (Intern)}{May 2024 -- Nov 2025}
+    \begin{itemize}
+        \item Migrated automated SAS Enterprise queries to SQL, optimizing joins and creating indexes, reducing execution time by approximately 40\%.
+        \item Automated the processing of 20,000+ monthly records using web scraping (Selenium) and REST API consumption, reducing manual analysis effort by approximately 90\%.
+        \item Developed secure REST APIs with Django and FastAPI, integrating internal systems and external partners.
+        \item Built data extraction pipelines with OCR (Tesseract), supporting document digitization and analysis processes.
+        \item Implemented automated tests (Pytest) and CI/CD pipelines (GitLab) across all code deliveries, contributing to greater release stability.
+        \item Created Power BI dashboards with Row-Level Security (RLS) access control, used by multiple teams to support decision-making and compliance reporting.
+    \end{itemize}
+
+\cventry{Travel Buddies}{Remote}{Backend Developer (Freelance)}{May 2025 -- Jun 2025}
+    \begin{itemize}
+        \item Developed a serverless middleware using Cloudflare Workers and TypeScript, ensuring scalability and high availability.
+        \item Integrated supplier APIs with Shopify via Webhooks, automating 100\% of sales with eSIM provisioning via QR code and automated post-purchase email delivery.
+        \item Managed deployments and post-release adjustments through CI/CD pipelines, ensuring rapid system iteration.
     \end{itemize}
 
 % ------
 
-% !!!!!!!!!!!!!!!!!!!!!!
-% Place this section directly below the header and above the 
-% Experience section if you’re applying for your first job 
-% or an internship; otherwise, leave it at the end of your 
-% resume.
-% !!!!!!!!!!!!!!!!!!!!!!
+\section{Projects}
+
+\cventry{Taskify --- AI-Powered Workflow Orchestration Platform}{Jun 2025 -- Nov 2025}{React, Next.js, TypeScript, Python, Django DRF, Google GenAI, LangGraph}{}
+    \begin{itemize}
+        \item Developed a modular workflow orchestration platform with generative AI integration (Google Gemini) for dynamic flow creation from natural language input.
+        \item Served as technical lead, defining stack and architecture; project awarded as Innovation Highlight at Centro Universitário de Brasília (CEUB).
+    \end{itemize}
+
+% ------
+
+\section{Skills}
+    \begin{itemize}
+        \item \textbf{Technical:} Python, JavaScript, TypeScript, SQL, PySpark, FastAPI, Django REST, Node.js, NestJS, PostgreSQL, Azure Databricks (Delta Lake), Azure OpenAI, Azure Data Factory, Docker, CI/CD, LLMs, RAG, Computer Vision (YOLO), Power BI, LangGraph, LangChain
+        \item \textbf{Languages:} Portuguese (Native), English (Advanced)
+    \end{itemize}
+
+% ------
 
 \section{Education}
-    % Use this format for each degree - most recent first
-    \subsection*{\texorpdfstring{
-            \textbf{Your University Name} \hfill Location (e.g. Remote or State, Country)
-        }{
-            Your University Name (Education) -- Location
-        }}
-    \textit{Your Degree Title (e.g. B.Sc. Computer Science) \hfill Start Date - End Date (e.g. Jan 2024 - Dec 2024)}
+
+\cventry{Centro Universitário de Brasília (CEUB)}{Brasília, DF -- Brazil}{B.Sc. Computer Science}{Jan 2022 -- Dec 2025}
 
 \end{document}
