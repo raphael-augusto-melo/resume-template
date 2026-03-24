@@ -124,11 +124,11 @@
         \item Created Power BI dashboards with Row-Level Security (RLS) access control, used by multiple teams to support decision-making and compliance reporting.
     \end{itemize}
 
-\cventry{Travel Buddies}{Remote}{Backend Developer (Freelance)}{May 2025 -- Jun 2025}
+\cventry{Travel Buddies}{Remote}{Backend Developer (Freelance)}{May 2025 -- Dec 2025}
     \begin{itemize}
-        \item Developed a serverless middleware using Cloudflare Workers and TypeScript, ensuring scalability and high availability.
-        \item Integrated supplier APIs with Shopify via Webhooks, automating 100\% of sales with eSIM provisioning via QR code and automated post-purchase email delivery.
-        \item Managed deployments and post-release adjustments through CI/CD pipelines, ensuring rapid system iteration.
+        \item Architected a serverless international eSIM provisioning system on Cloudflare Workers (JavaScript), integrating the Maya API with Shopify across 10 geographic regions via weekly automated cron job --- covering Europe, APAC, Latin America, and the Middle East.
+        \item Built a real-time order fulfillment pipeline triggered by Shopify webhooks: HMAC-SHA256 signature verification using the native Web Crypto API, fault-tolerant background processing via \texttt{ctx.waitUntil}, PNG QR code generation, and personalized transactional email delivery via Resend.
+        \item Maintained and iterated on the system in production for 8 months, delivering continuous improvements aligned with evolving business requirements.
     \end{itemize}
 
 % ------
